@@ -1,0 +1,14 @@
+titleforewindow 命令提示符
+moveforewindow 300 400
+resizeforewindow 400 300
+setforecolor 3
+echo 鼠标的当前坐标为（
+mouse x
+echo ，
+mouse y
+echo )
+sleep 2000
+hideconsole
+sleep 2000
+messagebox success 1 命令提示符
+end

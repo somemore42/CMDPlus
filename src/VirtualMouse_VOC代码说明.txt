@@ -1,0 +1,31 @@
+Click [x] [y]
+MiddleClick [x] [y]
+RightClick [x] [y]
+WheelUp [n]
+WheelDown [n]
+CloseWindow
+GetForeWindow
+GetWindowByTitle [title]
+SizeWindow [x] [y]
+MoveWindow [x] [y]
+GOTO [x] [y]
+GOBY [dx] [dy]
+Sleep [mileseconds]
+Titlewindow [title]
+MouseMove [x] [y]
+MouseDown [x] [y]
+MouseUp [x] [y]
+MouseRightDown [x] [y]
+MouseRightUp [x] [y]
+MouseMiddleDown [x] [y]
+MouseMiddleUp [x] [y]
+EchoOn
+EchoOff
+Rem [descriptions]
+HideRun
+ShowRun
+setKeyboardBig
+setKeyboardSmall
+keyBoard [text]
+MessageBox [Text] [Title] [Type:0-5]
+system [argv1] [argv2] [argv3]

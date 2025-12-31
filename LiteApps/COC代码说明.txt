@@ -1,0 +1,55 @@
+Initial [w] [h]
+ClearCanvas
+RequireAnimateFrame
+OutputFrame
+ExitAnimateFrame
+MoveWindow [nw] [nh]
+ResizeWindow [nw] [nh]
+
+Color [word]
+RGB [red] [green] [blue]
+Rect [leftTopx] [leftTopy] [rightBottomx] [rightBottomy]
+
+GoTo [x] [x]
+MoveBy [dx] [dy]
+
+PX
+Line
+Text
+Square
+Circle [R]
+
+SetColor
+SetBkColor
+SetTextColor
+SetFillColor
+SetLineColor
+SetLineWidth [px]
+SetTextSize [height] [width]
+SetTextFont [fontFace]
+SetTextAngle [mlineAngle] [meachCharAngle]
+SetTextStyle
+
+LoadImage [url] [w] [h]
+LoadOriginalImage [url]
+LoadTransImage [fore url] [mask url] [w] [h]
+LoadOriginalTransImage [fore url] [mask url]
+LoadText [text1] [text2] [text3] [text4]
+
+Image
+ImageTrans
+
+PutImage [x] [y]
+PutTransImage [x] [y]
+PutImageByRect
+PutTransImageByRect
+PutText [x] [y]
+PutTextByRect
+
+SaveImage
+SaveAs [url]
+
+Title
+Alert [...]
+Sleep [ms]
+Keep
